@@ -1,0 +1,347 @@
+@media screen and (max-width:1024px){
+    :root{
+        --page-width:92%;
+    }
+    .top-header-container{
+        background-color: #FFFFFF;
+    }
+    .top-header{
+        justify-content: space-between;
+        height: 50px;
+    }
+    .top-header nav{
+        display: none;
+    }
+    .resp-icon{
+        display: block;
+    }
+    .resp-icon a{
+       font-size: 25px; 
+       text-decoration: none;
+       color: #000000;
+    }
+    .header-logo img{
+        width: 90px;
+        height: 26px;
+    }
+    .bottom-header{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .bottom-left{
+        align-items: center;
+    }
+    .bottom-left .grayText{
+        font-size: 19px !important;
+    }
+    .bottom-right-image img{
+        max-height: 200px;
+        margin-top: 30px;
+    }
+    .list-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 25px;
+    }
+    .list-container-card{
+        width: 100%;
+    }
+    .designer-container{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .designer-content{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .portfolio-content{
+        width: 100%;
+    }
+    .portfolio-card:nth-child(3){
+        display: block !important;
+    }
+    .portfolio-column:nth-child(3){
+        display: none;
+    }
+    .portfolio-column{
+        width: 50%;
+    }
+    .portfolio-cards{
+        gap: 20px;
+    }
+    .develop-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .develop-content{
+        width: 100%;
+    }
+    .services-cards{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .services-card{
+        width: 100%;
+    }
+    .clients-container .portfolio-content{
+        width: 100%;
+    }
+    .blog-cards{
+        flex-wrap: wrap;
+    }
+    .blog-card{
+        width: 50%;
+    }
+    .blog-card:nth-child(1){
+        padding-right: 20px;
+    }
+    .subscribe-content-form{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .forms{
+        width: 100%;
+    }
+    .subscribe-content{
+        padding-bottom: 30px;
+        gap: unset;
+    }
+    .information{
+        flex-direction: column;
+    }
+    .right-field{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .text-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px) {
+    :root{
+        --page-width:92%;
+    }
+    .portfolio-cards{
+        align-items: center;
+        flex-direction: column;
+    }
+    .portfolio-column{
+        width: 100%;
+    }
+    .portfolio-content{
+        width: 100%;
+    }
+    .services-card{
+        padding: 30px;
+    }
+    .services-card-image{
+        display: none;
+    }
+    .services-card-content{
+        width: unset;
+    }
+    .clients-card{
+        width: 50%;
+    }
+    .clients-card:nth-child(1){
+        border-bottom: 2px solid #eee;
+    }
+    .clients-card:nth-child(2){
+        border-bottom: 2px solid #eee;
+        border-right: none;
+    }
+    .clients-card:nth-child(6){
+        border-right: none;
+    }
+    .blog-cards{
+        flex-direction: column;
+    }
+    .blog-card{
+        width: 100%;
+    }
+    .details{
+        margin: 20px 0;
+    }
+    .subscribe-background{
+        padding: 200px;
+    }
+    .overlay{
+        height: unset;
+    }
+    .subscribe-content{
+        width: 100%;
+    }
+    .subscribe-content-form{
+        gap: 30px;
+    }
+    .input-list li{
+        width: 100%;
+    }
+}
+@media screen and (max-width:526px){
+    .portfolio-menu ul{
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 10px;
+        justify-content: center;
+    }
+    .portfolio-content{
+        width: 95%;
+    }
+    .clients-card-image img{
+        width: 133px;
+    }
+}
+@media screen and (max-width:514px) {
+    .subscribe-content-form{
+        gap: unset;
+    }
+}
+@media screen and (max-width:426px) {
+    .portfolio-menu ul{
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 10px;
+    }
+    .clients-card-image img{
+        width: 133px;
+    }
+    .subscribe-background{
+        padding: 180px;
+        height: 440px;
+    }
+    .subscribe-content-form{
+        padding: 40px;
+    }
+    .orange{
+        padding: 0 13px;
+    }
+    .left-contact{
+        width: unset;
+    }
+}
+@media screen and (max-width:376px) {
+    :root{
+        --page-width:96%;
+    }
+    .bottom-left{
+        width: 95%;
+    }
+    .bottom-left .grayText{
+        font-size: 17px;
+        text-align: center;
+    }
+    .list-card-content{
+        width: 85%;
+    }
+    .designer-image{
+        width: 85%;
+    }
+    .designer-content h1{
+        font-size: 35px;
+    }
+    .portfolio-menu ul{
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+    }
+    .portfolio-card{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .portfolio-content{
+        width: 80% !important;
+    }
+    .portfolio-content h1{
+        font-size: 35px;
+    }
+    .clients-cards{
+        width: 90%;
+    }
+    .services-card{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .blog-card:nth-child(1){
+        padding: unset;
+    }
+    .blog-card{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .develop-image{
+        width: 50%;
+    }
+    .develop-content h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .yuzdeler{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .null{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .clients-card-image img{
+        width: 146px;
+    }
+    .subscribe-background{
+        padding: 165px;
+        height: 420px;
+    }
+    .subscribe-container{
+        width: 90%;
+    }
+    .orange{
+        padding: 0 15px;
+        font-size: 16px;
+    }
+    .email{
+        font-size: 20px;
+    }
+    .subscribe-content-form{
+        padding: 30px;
+        gap: unset;
+    }
+    .left-contact{
+        width: 95%;
+    }
+    .input-list li{
+        width: 95%;
+        margin: 0 auto;
+        padding: unset;
+    }
+    .input-list ul{
+        gap: 15px;
+    }
+    .message-area{
+        padding-top: 15px;
+        width: 95%;
+        margin: 0 auto;
+        padding: unset;
+    }
+    .orange-button-container{
+        margin-left: 12px;
+    }
+    .map{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:348px){
+    .bottom-left h1{
+        font-size: 40px;
+    }
+
+    .subscribe-background{
+        padding: 110px;
+    }
+
+}
